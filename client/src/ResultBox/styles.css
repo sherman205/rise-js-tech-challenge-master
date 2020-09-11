@@ -1,0 +1,40 @@
+.result-box-wrapper {
+    align-items: center;
+}
+
+.result {
+    text-align: center;
+    width: 80%;
+    background-color: #F8F8F8;
+    padding: 20px;
+    margin: 10px 0;
+    transition: all 1s ease;
+}
+
+.feedback {
+    font-size: 12px;
+    margin: 20px 0 10px;
+}
+
+.reload-form {
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 0 50px;
+    transition: all 0.25s ease;
+}
+
+.reload-form:hover {
+    color: #CACBCB;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .reload-form {
+        padding: 0 20px;
+        font-size: 12px;
+    }
+
+    .small-icon {
+        font-size: 18px !important;
+    }
+}

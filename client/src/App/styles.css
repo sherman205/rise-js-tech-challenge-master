@@ -1,0 +1,15 @@
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  cursor: default;
+  margin: 80px 0;
+}
+
+@media only screen and (max-width: 450px) {
+  .App {
+    width: 100vw;
+    min-height: 100vh;
+    cursor: default;
+    margin: 20px 0;
+  }
+}
