@@ -22,10 +22,10 @@ const KnowledgeCheck = () => {
         .then(res => res.json())
         .then(response => {
             setKnowledgeCheck(response);
-            response.map((item, index) => {
+            response.forEach((item, index) => {
                 if (item.isCurrentKnowledgeCheck) {
                     setCurrentKnowledgeCheck(index);
-                    item.answers.map(option => {
+                    item.answers.forEach(option => {
                         if (option.isSelected) {
                             setSelectedOption(option);
                             option.isCorrect ? setIsCorrect(true) : setIsCorrect(false);
