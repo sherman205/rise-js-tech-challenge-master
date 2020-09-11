@@ -10,7 +10,7 @@ I have also:
 
 ## How to develop
 
-Start up the REST API (`/server`) in a Terminal window:
+Start up the REST API (`/server`) in a terminal window:
 
 1. `cd server`
 2. `npm install`
@@ -18,7 +18,7 @@ Start up the REST API (`/server`) in a Terminal window:
 
 REST API for knowledge-check-blocks served through `http://localhost:5000/knowledge-check-blocks`
 
-Start the React front end (`/client`) in a separate terminal:
+Start the React front end (`/client`) in another terminal window:
 
 1. `cd client`
 2. `npm install`

@@ -4,9 +4,9 @@
 
 .result {
     text-align: center;
-    width: 80%;
+    width: 100%;
     background-color: #F8F8F8;
-    padding: 20px;
+    padding: 20px 0;
     margin: 10px 0;
     transition: all 1s ease;
 }

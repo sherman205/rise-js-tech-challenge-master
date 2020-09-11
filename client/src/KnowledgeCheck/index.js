@@ -120,7 +120,9 @@ const KnowledgeCheck = () => {
             <form onSubmit={handleSubmit}>
                 <p className="question">{knowledgeCheck[currentKnowledgeCheck]?.question.text}</p>
                 <Zoom>
-                    <img className="knowledge-check-img" alt="knowledge-check-img" src={knowledgeCheck[currentKnowledgeCheck]?.question.media.url} />
+                    {knowledgeCheck[currentKnowledgeCheck] &&
+                        <img className="knowledge-check-img" alt="knowledge-check-img" src={knowledgeCheck[currentKnowledgeCheck].question.media.url} />
+                    }
                 </Zoom>
                 <div className="divider"></div>
                 <div className="radio-options-box">
